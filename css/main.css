@@ -1,16 +1,22 @@
 html {
- font-size: 9px;	
+ font-size: 10px;	
 }
+
+/*
+@media only screen and (min-width: 600px) {
+	html {
+		font-size: 10px;
+}
+*/
 body {
 	font-family: sans-serif;
 }
 
 /*-------------header------------------------------------------*/
 
-
-.fa fa-star-half-o {
-	font-size:48px;
-	color:#FFFFFF;
+.logo {
+	font-size:24px;
+	color:white;
 }
 
 /*-------------heroimage-----*/
@@ -94,9 +100,8 @@ header p {
 }
 
 #features{
-	padding-bottom:400px;
+	padding-bottom:600px;
 }
-
 
 
 /*-------------Morefeaturesimg----------------------------------*/
@@ -104,10 +109,8 @@ header p {
 background-color: rgb(244, 244, 244);;
 }
  #morefeaturesimg img{
- 	width:700px;
+ 	width:900px;
     margin:auto;
- 	
- 	
  }
 
 /*-------------Morefeaturestxt----------------------------------*/
@@ -134,6 +137,10 @@ background-color: rgb(244, 244, 244);;
 /*layout*/
 
 /*items*/
+#portafolio  {
+background-color: rgb(244, 244, 244);;
+}
+
 .portfolio{
 	padding-top: 2em;
 	clear: both;
@@ -170,7 +177,6 @@ figure{
 .img-wrap:hover:before{
 	background-color: rgba(0,11,63,1);
 	opacity: 0;
-
 }
 
 nav{
@@ -185,16 +191,16 @@ nav ul li a{
 	padding: .5em 1.5em.5em;
 	color: #444;
 	font-size: 18px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: sans-serif;
 	transition: color .6s, background-color .2s;
 }
 nav ul li a:hover{
-	background-color: #FB0B3F;
-	color: #fff;
+	background-color:  #3AB2BA;
+	color: white;
 }
 .active a{
-	border: solid 1px #FB0B3F;
-	color: #FB0B3F;
+	border: solid 1px #3AB2BA;
+	color: #3AB2BA;
 }
 
 @media only screen and (min-width: 600px) {
@@ -203,7 +209,9 @@ nav ul li a:hover{
 		text-align: center;}
 }
 
-
+.caja{
+	
+}
 
 
 
@@ -284,7 +292,6 @@ nav ul li a:hover{
 	background-repeat: no-repeat;
 	background-position: top;
 	padding: 9% 0 10%;
-
 }
 .frase {
 	font-size: 2.2rem;
@@ -297,12 +304,15 @@ nav ul li a:hover{
 	margin-top: 5%;
 	padding: 12px 20px;
 }
+@media only screen and (min-width: 600px) {
+	
+}
 /*------------Pricing-----------------*/
 #pricing {
-	padding: 1% 0;
+	padding: 10px 0 60px;
 }
 .package {
-	padding: 35px 15px;
+	padding: 35px 15px 40px;
 }
 .paquete {
 	padding: 35px 0;
@@ -312,7 +322,7 @@ nav ul li a:hover{
 	font-size: 2.8rem;
 }
 .price {
-	padding: 40px 0;
+	padding: 45px 0;
 	margin-bottom: 30px;
 }
 .price p{
@@ -320,14 +330,49 @@ nav ul li a:hover{
 	font-size: 1.8rem;
 }
 .precio {
-	font-size: 2.6rem;
+	font-size: 3rem;
 	color: #555;
 }
 .descripcionpaq p {
 	color: #888;
 	padding: 15px 0;
+	margin:0;
 }
 .mginferior {
 	border-bottom: 1px solid #f2f2f2;
 }
+.boton {
+	padding: 15px 0;
+}
+#pricing button {
+	font-size: 1.8rem;
+	padding: 10px 25px;
+}
+@media only screen and (min-width: 600px) {
+	.pd-esp {
+		padding: 40px 10px;
+	}
+}
 
+/*-----------------Testimonio-------------------*/
+#testimonio img {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	margin-top: 40px;
+	margin-bottom: 15px;
+}
+#testimonio p {
+	width: 72%;
+	margin: auto;
+	padding-bottom: 20px;
+}
+.firma {
+	font-size: 1.4rem;
+	font-weight: bold;
+}
+@media only screen and (min-width: 600px) {
+	#testimonio {
+		padding: 40px 0;
+	}
+}
