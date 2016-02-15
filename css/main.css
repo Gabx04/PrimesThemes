@@ -24,9 +24,6 @@ body {
     color:#FFFFFF;
 }
 
-.titulo{
-	margin-top:20%;
-}
 
 h1 {
 	color: #FFFFFF;
@@ -55,6 +52,7 @@ h1 {
 .navbar-default{
 	background-color: transparent;
 	border-color:transparent;
+	margin-top: 2.0rem;
 }
 
 /*-------------features--------------------------------------*/
@@ -69,12 +67,22 @@ h1 {
 	color: #3AB2BA;
 }
 
+#features{
+	height:400px;
+}
+
 
 
 /*-------------Morefeaturesimg----------------------------------*/
-#morefeaturesimg {
-	background-color: gray;
+#morefeaturesimg  {
+background-color: rgb(244, 244, 244);;
 }
+ #morefeaturesimg img{
+ 	width:700px;
+    margin:auto;
+ 	
+ 	
+ }
 
 /*-------------Morefeaturestxt----------------------------------*/
 
@@ -84,8 +92,9 @@ h1 {
 .ion-ios-pie , 
 .ion-android-archive , 
 .ion-trophy {
-	font-size:24px;
+	font-size:30px;
 	color: #3AB2BA;
+	float:right;
 }
 
 
@@ -256,6 +265,22 @@ nav ul li a:hover{
 #call button {
 	border: none;
 	margin-top: 5%;
+	padding: 12px 20px;
+}
+/*------------Pricing-----------------*/
+#pricing {
+	padding: 1% 0;
 }
 
-
+.mginferior {
+	border-bottom: 1px solid #f2f2f2;
+}
+.package {
+	padding: 15px 5px;
+}
+#pricing p {
+	color: #888;
+}
+.precio {
+	font-size: 2rem;
+}

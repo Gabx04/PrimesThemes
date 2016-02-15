@@ -63,10 +63,12 @@ strong {
 .text-gray{
 	color: #888;
 }
-.text-dgray{
+.text-gray2{
+	color:#555;
+}
+.text-gra3{
 	color: #444;
 }
-
 .text-green{
  	color: #0dc0c0;
 }
@@ -99,7 +101,6 @@ strong {
 .pull-left {
 	float: left;
 }
-
 .pull-right {
 	float: right;
 }
@@ -112,7 +113,6 @@ strong {
 .buttontransp {
 	border: none;
 	background-color: rgba(191, 191, 191, 0.1);
-	padding: 12px 2%;
 	color: white;
 	font-weight: 600;
 	font-size: 1.7rem;
@@ -122,4 +122,14 @@ strong {
 	border: none;
 	background-color: #0dc0c0;
 	padding: 10px 20px;
+}
+.sombreado {
+	box-shadow: 0px 1px 1px #ccc;
+}
+/*arriba del main*/
+h2 {
+	
+}
+p {
+	font-size: 1.6rem;
 }
