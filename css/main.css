@@ -1,5 +1,5 @@
 html {
- font-size: 10px;	
+ font-size: 9px;	
 }
 body {
 	font-family: sans-serif;
@@ -25,10 +25,36 @@ body {
 }
 
 
-h1 {
+header h1 {
 	color: #FFFFFF;
 	font-size: 5.0rem;
 	font-family: sans-serif ;
+    margin-bottom: 30px;
+    margin-top: 40px;
+
+}
+
+header p {
+    margin-bottom: 70px;
+    margin-right: 0px;
+}
+
+.buttongris{
+	background-color:#2D323A;
+	text-decoration:none;
+	border:none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 15px;
+    margin-right: 35px;
+}
+
+.buttontransp{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 /*-------------nav-----------*/
@@ -68,7 +94,7 @@ h1 {
 }
 
 #features{
-	height:400px;
+	padding-bottom:400px;
 }
 
 
@@ -95,6 +121,10 @@ background-color: rgb(244, 244, 244);;
 	font-size:30px;
 	color: #3AB2BA;
 	float:right;
+}
+#morefeaturestxt h3 {
+	margin-top:5px;
+	margin-bottom:0px;
 }
 
 
@@ -271,16 +301,33 @@ nav ul li a:hover{
 #pricing {
 	padding: 1% 0;
 }
-
+.package {
+	padding: 35px 15px;
+}
+.paquete {
+	padding: 35px 0;
+}
+#pricing h3 {
+	margin: 0;
+	font-size: 2.8rem;
+}
+.price {
+	padding: 40px 0;
+	margin-bottom: 30px;
+}
+.price p{
+	color: #555;
+	font-size: 1.8rem;
+}
+.precio {
+	font-size: 2.6rem;
+	color: #555;
+}
+.descripcionpaq p {
+	color: #888;
+	padding: 15px 0;
+}
 .mginferior {
 	border-bottom: 1px solid #f2f2f2;
 }
-.package {
-	padding: 15px 5px;
-}
-#pricing p {
-	color: #888;
-}
-.precio {
-	font-size: 2rem;
-}
+

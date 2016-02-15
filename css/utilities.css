@@ -66,7 +66,7 @@ strong {
 .text-gray2{
 	color:#555;
 }
-.text-gra3{
+.text-gray3{
 	color: #444;
 }
 .text-green{
@@ -124,7 +124,7 @@ strong {
 	padding: 10px 20px;
 }
 .sombreado {
-	box-shadow: 0px 1px 1px #ccc;
+	box-shadow: 0px 1px 2px #ccc;
 }
 /*arriba del main*/
 h2 {
