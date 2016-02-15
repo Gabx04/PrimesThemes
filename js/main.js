@@ -65,7 +65,7 @@ window.onload=function(){
 	var 	ulPortfolio = document.getElementsByClassName("navigate")[0],
 			imgPortfolio = document.getElementsByClassName("portfolio")[0],
 			aclass = "active",
-			imgFigureClass = "col-md-6",
+			imgFigureClass = "img-wrap",
 			navport = new navigation(aclass,ulPortfolio,imgPortfolio,imgFigureClass);
 
 			navport.render();

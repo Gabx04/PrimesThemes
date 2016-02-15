@@ -59,6 +59,8 @@ header p {
     padding-left: 10px;
     padding-right: 15px;
     margin-right: 35px;
+    color:white;
+    
 }
 
 .buttontransp{
@@ -113,7 +115,16 @@ header p {
 }
 
 #features{
-	padding-bottom:600px;
+	padding-bottom:50%;
+}
+
+@media (max-width: 600px) {
+  #features {
+    padding-left:40px;
+    padding-right:40px;
+    padding-bottom: 10%;
+    font-size: 0.8rem;
+  }
 }
 
 
@@ -143,6 +154,14 @@ background-color: rgb(244, 244, 244);;
 	margin-bottom:0px;
 }
 
+@media (max-width: 600px) {
+  #morefeaturestxt .row{
+    padding-left:40px;
+    padding-right:40px;
+    font-size: 0.8rem;
+  }
+}
+
 
 /*--------------portafolio----------------------------------*/
 /*-----
@@ -151,12 +170,13 @@ background-color: rgb(244, 244, 244);;
 
 /*items*/
 #portafolio  {
-background-color: rgb(244, 244, 244);;
+background-color: rgb(244, 244, 244);
 }
 
 .portfolio{
 	padding-top: 2em;
-	clear: both;
+/*	clear: both;*/
+	
 }
 .menu{
 	padding: .3em .3em;
@@ -195,9 +215,27 @@ figure{
 nav{
 	margin-top: 45px;
 }
+.navigate li a{
+	position:relative;
+}
+/*
+@media (max-width: 600px) {
+ .active , .identity , .webdesign , .graphic ,
+ .logo{
+    width: 50%;
+  }
+}
+*/
+@media (max-width: 600px) {
+ .nav{
+    width: 50%;
+  }
+}
+
+
 nav ul li {
-	display: inline;
-  text-align:center;
+	display: inline-block;
+    text-align:center;
 }
 nav ul li a{
 	text-decoration: none;
@@ -215,13 +253,13 @@ nav ul li a:hover{
 	border: solid 1px #3AB2BA;
 	color: #3AB2BA;
 }
-
+/*
 @media only screen and (min-width: 600px) {
 	
 	nav{
 		text-align: center;}
 }
-
+*/
 .caja {
     padding-top: 10px;
     padding-right: 10px;
