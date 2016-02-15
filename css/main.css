@@ -1,7 +1,6 @@
 html {
  font-size: 10px;	
 }
-
 /*
 @media only screen and (min-width: 600px) {
 	html {
@@ -14,16 +13,20 @@ body {
 
 /*-------------header------------------------------------------*/
 
-.logo {
+.logos {
 	font-size:24px;
 	color:white;
 	text-decoration:none;
 }
 
-.logo:hover{
+
+.logos:hover{
 	background-color: transparent;
 	color: #3AB2BA;
+	text-decoration:none;
 }
+
+
 /*-------------heroimage-----*/
 .hero {
 	background-size: 100% 100%;
@@ -156,8 +159,8 @@ background-color: rgb(244, 244, 244);;
 
 @media (max-width: 600px) {
   #morefeaturestxt .row{
-    padding-left:40px;
-    padding-right:40px;
+  	padding-left: 10px;
+    padding-right:10px;
     font-size: 0.8rem;
   }
 }
@@ -218,17 +221,24 @@ nav{
 .navigate li a{
 	position:relative;
 }
-/*
+.portafolio .navigate{
+	padding: 0;
+}
 @media (max-width: 600px) {
  .active , .identity , .webdesign , .graphic ,
  .logo{
-    width: 50%;
+    font-size:4em;
   }
-}
-*/
-@media (max-width: 600px) {
- .nav{
-    width: 50%;
+  .menu .navigate{
+  	padding: 0;
+  }
+  .menu .navigate li{
+  	margin-top: 10px;
+  }
+  .menu .navigate li a{
+  	font-size: 12px;
+  	padding: 5px 3px;
+  	text-decoration: none;
   }
 }
 
@@ -433,8 +443,9 @@ nav ul li a:hover{
 }
 /*---------------------contactus------------------*/
 #contactus {
-	 background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/background/contactus.jpg);
+	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/background/contactus.jpg);
 	padding: 10px 0;
+	background-size: 100% 100%;
 }
 #contactus h2 {
 	margin-bottom:40px;
@@ -448,7 +459,8 @@ input {
 	padding: 15px 10px;
 	margin: 10px 0;
 	font-size: 1.6rem;
-	background-color: rgba(191, 191, 191, 0.1);
+	background-color: rgba(191, 191, 191, 0.2);
+	color: #f2f2f2;
 }
 .mensaje {
 	padding-bottom: 100px;
@@ -490,15 +502,31 @@ input {
 }
 
 /*-----------------------Followus--------------*/
-#followus p {
-	
+#followus {
+	padding: 35px 0 25px;
 }
-
+#followus p {
+	font-size: 1.4rem;
+	margin-top: 30px;
+}
+.redessoc {
+	margin: 50px 0;
+}
+#followus i {
+	font-size: 3.2rem;
+	margin: 5px;
+}
+#followus i:last-child {
+	font-size: 4rem;
+	position: relative;
+	top: 5px;	
+}
 
 /*----------------Footer------*/
 
 footer {
 	padding: 30px 0;
+	background-color: #222222;
 }
 footer p {
 	margin: auto;

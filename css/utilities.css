@@ -122,6 +122,9 @@ strong {
 	font-size: 1.7rem;
 	box-shadow: 0px 0px 1px rgba(191, 191, 191, 0.7);
 }
+.buttontransp:hover {
+	background-color: rgb(13, 192, 192);
+}
 /*
 .buttonturquesa {
 	border: none;
