@@ -1,34 +1,168 @@
+html {
+ font-size: 10px;	
+}
+body {
+	font-family: sans-serif;
+}
+
+/*-------------header------------------------------------------*/
+
+
+.fa fa-star-half-o {
+	font-size:48px;
+	color:#FFFFFF;
+}
+
+/*-------------heroimage-----*/
+.hero {
+	background-size: 100% 100%;
+	height:680px;
+	background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),
+    url(../img/background/hero.jpg);
+  	background-size: cover;
+	background-repeat: no-repeat;
+    color:#FFFFFF;
+}
+
+.titulo{
+	margin-top:20%;
+}
+
+h1 {
+	color: #FFFFFF;
+	font-size: 5.0rem;
+	font-family: sans-serif ;
+}
+
+/*-------------nav-----------*/
+.navbar{
+	margin-bottom: 0%;
+}
+.navbar-default .navbar-toggle{
+	border-color: transparent;
+	margin-left: 20px;
+}
+
+
+@media (max-width: 600px) {
+  .navbar-header img {
+    margin-left: 25%; 
+    width: 40%;
+    height: 40%;
+  }
+}
+
+.navbar-default{
+	background-color: transparent;
+	border-color:transparent;
+}
+
+/*-------------features--------------------------------------*/
+
+.ion-map , 
+.ion-paper-airplane ,
+.ion-clipboard ,
+.ion-earth ,
+.ion-flash-off 
+,.ion-levels{
+	font-size:48px;
+	color: #3AB2BA;
+}
 
 
 
+/*-------------Morefeaturesimg----------------------------------*/
+#morefeaturesimg {
+	background-color: gray;
+}
+
+/*-------------Morefeaturestxt----------------------------------*/
+
+.ion-erlenmeyer-flask , 
+.ion-ios-speedometer , 
+.ion-android-boat , 
+.ion-ios-pie , 
+.ion-android-archive , 
+.ion-trophy {
+	font-size:24px;
+	color: #3AB2BA;
+}
 
 
+/*--------------portafolio----------------------------------*/
+/*-----
 
+/*layout*/
 
-/*-------------header--------*/
+/*items*/
+.portfolio{
+	padding-top: 2em;
+	clear: both;
+}
+.menu{
+	padding: .3em .3em;
+}
+.wrap{
+	padding: .3em;
+}
+img{width: 100%;
+	opacity: 1;
+	transition: opacity .6s;}
 
+figure{
+	float: left;
+	position: relative;
+	line-height: 0;
+	padding: .6em;
+	cursor: pointer;
+}
+.img-wrap:before{
+	content: '';
+	position: absolute;
+	top: .6em;
+	left: 1em;
+	right: 1em;
+	bottom: .6em;
+	background-color: rgba(255,255,255,.7);
+	opacity: 0.5;
+	transition: opacity 2s,
+	background-color .4s; 
+}
+.img-wrap:hover:before{
+	background-color: rgba(0,11,63,1);
+	opacity: 0;
 
+}
 
+nav{
+	margin-top: 45px;
+}
+nav ul li {
+	display: inline;
+  text-align:center;
+}
+nav ul li a{
+	text-decoration: none;
+	padding: .5em 1.5em.5em;
+	color: #444;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	transition: color .6s, background-color .2s;
+}
+nav ul li a:hover{
+	background-color: #FB0B3F;
+	color: #fff;
+}
+.active a{
+	border: solid 1px #FB0B3F;
+	color: #FB0B3F;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media only screen and (min-width: 600px) {
+	
+	nav{
+		text-align: center;}
+}
 
 
 
@@ -106,15 +240,22 @@
 
 /*----------------------------Call--------------------*/
 #call {
-    background-image: url(../img/background/city.jpg);
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(../img/background/city.jpg);
     background-size: cover;
 	background-repeat: no-repeat;
 	background-position: top;
-	
-	
-	
-    }
+	padding: 9% 0 10%;
 
-
+}
+.frase {
+	font-size: 2.2rem;
+	color: white;
+	font-weight: 400;
+	
+}
+#call button {
+	border: none;
+	margin-top: 5%;
+}
 
 
