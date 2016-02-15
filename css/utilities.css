@@ -45,10 +45,10 @@ strong {
 	width: 100%;
 }
 .lh{
-	line-height: 1.5;
+	line-height: 150%;
 }
 .lh-2 {
-	line-height: 2;
+	line-height: 200%;
 }
 .text-center{
 	text-align: center;
@@ -98,7 +98,7 @@ strong {
 .bg-img-block {
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+/*	background-position: center;*/
 }
 
 .pull-left {
@@ -122,10 +122,14 @@ strong {
 	font-size: 1.7rem;
 	box-shadow: 0px 0px 1px rgba(191, 191, 191, 0.7);
 }
+/*
 .buttonturquesa {
 	border: none;
 	background-color: #0dc0c0;
 	padding: 10px 20px;
+} */
+.buttonturquesa:hover {
+	
 }
 .sombreado {
 	box-shadow: 0px 1px 2px #ccc;
