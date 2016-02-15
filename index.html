@@ -19,17 +19,15 @@
   <script type='text/javascript' src='https://raw.githubusercontent.com/LeaVerou/prefixfree/gh-pages/prefixfree.min.js'></script>
 	<link rel="stylesheet" type="text/css" href="css/main.css">
   <title>Primes</title>
-
-  
   
 	
 </head>
 <body>
   
-  <header>
+  <header id="header">
     <div class="hero container-fluid">
-	    	<div class="container">
-					<div  role="navigation" class="navbar navbar-default">
+	    	<div class="container fixed">
+					<div role="navigation" class="navbar navbar-default">
 						<div class="navbar-header">
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
 							<span class="sr-only" >Toggle navigation</span>
@@ -37,7 +35,7 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 							</button>
-							<a  class="logos" href="index.html"><i class="fa fa-star-half-o"></i>PRIMES</a>
+							<a href="index.html#header" class="logos"><i class="fa fa-star-half-o"></i>PRIMES</a>
 						</div>
 						<div class="collapse navbar-collapse" >
 							<ul class="nav navbar-nav navbar-right">
@@ -53,8 +51,8 @@
 		    <div class="col-md-8 col-md-offset-2 text-center pt-10">
         <h1>Launch your <strong>Business</strong> with <strong>Primes</strong></h1>
         <p>Vivamus commodo felis quis dui pharetra, ac venenatis magna licinia. Vestibulum quis dignissim nibh. Duis viara felis orci.</p>
-        <button class="buttongris">Our Portafolio</button>
-        <button class="buttontransp">Learn More</button>
+       <a href="index.html#portafolio"> <button class="buttongris">Our Portafolio</button></a>
+        <a href="index.html#features"><button class="buttontransp">Learn More</button></a>
     </div>
     </div>
   </header>
@@ -114,12 +112,12 @@
       </div>  
   </section>
   
-  <section id="morefeaturesimg">
+  <section class="section" id="morefeaturesimg">
     <h2 class="text-center pt-5">More Features</h2>
     <img class="img-responsive pb-5" src="img/laptop-features.png"></img>
   </section>
   
-  <section id="morefeaturestxt">
+  <section class="section" id="morefeaturestxt">
     <div class="container pt-5 pb-5">
       <div class="row">
         <div class="col-xs-2 col-md-1">
@@ -195,7 +193,7 @@
     </div>
   </section>
   
-  <section id="portafolio">
+  <section class="section" id="portafolio">
     
   <div class="container pb-5 text-center">
     <div class="wrap col-md-12">
@@ -333,10 +331,10 @@
 
 
 
-  <section id="call">
+  <section class="section" id="call">
     <div class="container">
       <div class="col-md-offset-2 col-md-8 text-center">
-        <p class="frase">Quisque aliquan odio eu magna sodales, vel interdum erat suscipit</p><p class="frase">Maurit ut porttitor tellus.<p>
+        <p class="frase lh-3">Quisque aliquan odio eu magna sodales, vel interdum erat suscipit.</p><p class="frase">Maurit ut porttitor tellus.<p>
         <button class="buttontransp">Call To Action</button>
       </div>
      
@@ -351,7 +349,7 @@
           </div>
         </div>
         <div class="row pd-esp">
-          <div class="col-md-4 col-sm-12 text-center">
+          <div class="col-md-4 col-xs-12 text-center margen">
             <div class="package sombreado bg-white">
               <div class="paquete bg-grisoscuro">
                 <h3 class="text-white">Standard</h3>
@@ -370,7 +368,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 text-center">
+          <div class="col-md-4 col-xs-12 text-center margen">
             <div class="package sombreado bg-white">
               <div class="paquete bg-turquesa">
                 <h3 class="text-white">Premium</h3>
@@ -389,7 +387,7 @@
               </div>
             </div>
           </div>
-          <div class="col-md-4 col-sm-12 text-center">
+          <div class="col-md-4 col-xs-12 text-center margen">
             <div class="package sombreado bg-white">
               <div class="paquete bg-grisoscuro">
                 <h3 class="text-white">Ultimate</h3>
@@ -412,7 +410,7 @@
       </div>
      
   </section>
-  <section id="testimonio">
+  <section class="section" id="testimonio">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 text-center">
@@ -424,16 +422,16 @@
       </div>
     </div>
   </section>
-  <section id="contactus" class="bg-img-block">
+  <section id="contactus">
     <div class="container">
       <div class="row">
-        <div class="col-sm-12 text-white text-center">
-          <h2>Contac Us</h2>
-          <p class="textocontacto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, ad, assumenda voluptatibus corrupti nisi hic iste consectetur minus. Placeat, sunt, pariatur!</p>
+        <div class="col-sm-12 text-white">
+          <h2 class="text-center">Contac Us</h2>
+          <p class="textocontacto">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Deserunt, ad, assumenda voluptatibus corrupti nisi hic iste consectetur minus. Placeat, sunt!</p>
         </div>
       </div>
       <div class="row contacto">
-        <div class="col-sm-12 col-md-6">
+        <div class="col-sm-12 col-md-6 formulario">
           <h3 class="text-white">Send Message</h3>
           <form action="" class="text-left">
 							<input type="text" name="email" value="" placeholder="Email">
@@ -442,34 +440,34 @@
 							<input type="submit" value="Submit" class="submit text-center">
 						</form>
         </div>
-        <div class="col-sm-12 col-md-6 about">
+        <div class="col-sm-12 col-md-offset-1 col-md-5 about">
           <h3 class="text-white">About Us</h3>
-          <p class="textoabout text-white lh-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, qui autem repellendus quos at! Numquam, tenetur, aspernatur quidem assumenda sint repudiandae eius eos temporibus corporis officiis dicta a unde mollitia. Sint, fugiat, a voluptate possimus rem sequi porro voluptatum quam ipsum expedita eaque delectus praesentium ipsa autem vitae libero officiis doloribus facere necessitatibus tempore magni? Asperiores, architecto, nostrum eos accusamus itaque ipsum debitis voluptate illum aut laboriosam eaque consequatur magnam omnis quos aspernatur qui accusantium vel error obcaecati.</p>
+          <p class="textoabout text-white text-justify lh-2 ">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum, qui autem repellendus quos at! Numquam, tenetur, aspernatur quidem assumenda sint repudiandae eius eos temporibus corporis officiis dicta a unde mollitia. Sint, fugiat, a voluptate possimus rem sequi porro voluptatum quam ipsum expedita eaque delectus praesentium ipsa autem vitae libero officiis doloribus facere necessitatibus tempore magni? Asperiores, architecto, nostrum eos accusamus itaque ipsum debitis voluptate illum aut laboriosam eaque consequatur magnam omnis quos aspernatur qui accusantium vel error obcaecati.</p>
            <h3 class="text-white">Address</h3>
-           <p class="textoabout text-white"><i class="fa fa-map-marker"></i> 13 Brant Street, Burlington, Ontario, Canada</p>
+           <p class="textoabout"><a class="a-none-decoration text-white direccion"  target="_blank" href="https://www.google.com.pe/maps/place/13+Brant+St,+Hamilton,+ON+L8L+4C5,+Canad%C3%A1/@43.2660655,-79.8444403,17z/data=!3m1!4b1!4m2!3m1!1s0x882c9c08bf7bbe3b:0xbb2620029677e7d5"><i class="fa fa-map-marker"></i> 13 Brant Street, Burlington, Ontario, Canada</a></p>
            <p class="textoabout text-white"><i class="fa fa-phone"></i> Phone: 0011 222 335 7773</p>
         </div>
       </div>
     </div>
   </section>
-  <section id="followus">
+  <section class="section" id="followus">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 col-md-offset-2 col-md-8 text-center">
           <h2 class="text-gray2">Follow Us!</h2>
           <p class="text-center text-gray">Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Suspendisse suscipit tellus vitae tellus porta rutrum. Aliquam imperdiet nulla id scelerisque auctor.</p>
           <div class="redessoc">
-            <i class="fa fa-facebook text-gray3"></i>
-            <i class="fa fa-twitter text-gray3"></i>
-            <i class="fa fa-linkedin text-gray3"></i>
-            <i class="fa fa-pinterest text-gray3"></i>
-             <i class="ion-social-googleplus-outline text-gray3"></i>
+            <a href=" " class="redes"><i class="fa fa-facebook text-gray3"></i></a>
+            <a href=" " class="redes"><i class="fa fa-twitter text-gray3"></i></a>
+            <a href=" " class="redes"><i class="fa fa-linkedin text-gray3"></i></a>
+            <a href=" " class="redes"><i class="fa fa-pinterest text-gray3"></i></a>
+            <a href=" " class="redes"><i class="ion-social-googleplus-outline text-gray3"></i></a>
           </div>
         </div>
       </div>
     </div>
   </section>
-  <footer class="text-center">
+  <footer class="section text-center">
     <div class="container">
       <div class="row">
         <div class="col-sm-12">
